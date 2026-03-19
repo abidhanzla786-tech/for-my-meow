@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffdde1; /* Soft pink */
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+}
+
+.header_text {
+    font-size: 2.5em;
+    color: #d63384;
+}
+
+.gif_container img {
+    width: 250px;
+    margin: 20px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.btn {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#yesButton {
+    background-color: #4caf50;
+    color: white;
+}
+
+#noButton {
+    background-color: #f44336;
+    color: white;
+    position: relative;
+}
